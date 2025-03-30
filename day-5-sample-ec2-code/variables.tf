@@ -1,26 +1,26 @@
 variable "ami" {
     description = "ami"
     type = string
-    default = "ami-05c179eced2eb9b5b"
+    default = ""
 }
 
 variable "instance_type" {
     description = "type"
     type = string
-    default = "t2.micro"
+    default = ""
   
 }
 
 variable "key_name" {
     description = ""
     type = string
-    default = "mumbaikey"
+    default = ""
   
 }
 
 variable "Name" {
     description = ""
     type = string
-    default = "bhai"
+    default = ""
   
 }
